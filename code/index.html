@@ -1,11 +1,1197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section class="hero">
+      <a name="hero1"></a>
+      <! navbar>
+      <nav class="navbar navbar-expand-lg bg-white shadow py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/brand.png" alt="" width="150" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about1">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu1">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature1">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team1">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reservation1">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog1">Blog</a>
+              </li>
+            </ul>
+            <a class="btn btn-order" href="#" role="button">ORDER NOW!</a>
+          </div>
+        </div>
+      </nav>
+      <! carousal>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item bg-cover text-center active vh-100 slider-1">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="hr-lines">Welcome to FeastZ!</h5>
+                  <h1 class="display-2">Fresh and healthy food to keep your tummy filled!</h1>
+                  <a href="#" class="btn btn-order mt-4">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-cover text-center vh-100 slider-2">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="hr-lines">Welcome to FeastZ!</h5>
+                  <h1 class="display-2">Get some rich proteins to stay energetic!</h1>
+                  <a href="#" class="btn btn-order mt-4">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-cover text-center vh-100 slider-3">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="hr-lines">Welcome to FeastZ!</h5>
+                  <h1 class="display-2">Fresh and healthy food to keep your tummy filled!</h1>
+                  <a href="#" class="btn btn-order mt-4">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="about">
+      <a name="about1"></a>
+      <!about>
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5">
+            <img src="../assets/about-min.png" alt="" width="500px" class="img-fluid" />
+          </div>
+          <div class="col-lg-5">
+            <h1>About Us</h1>
+            <div class="divider my-4"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repellendus blanditiis earum, sit dicta amet fugiat ducimus autem ea
+              odio aliquam perspiciatis beatae dolorem eligendi sunt architecto tempora repellat dignissimos.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, autem necessitatibus. Expedita hic iure aperiam nobis, suscipit
+              laboriosam voluptatibus dolor ducimus at accusamus maxime nostrum voluptas alias omnis quod magni ea quasi.
+            </p>
+            <a href="#" class="btn btn-order my-1">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section  class="menu bg-light py-5" >
+      <a name="menu1"></a>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 menu-text">
+            <h1>Explore Our Menu</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui perferendis vel hic! Accusantium, maiores voluptate!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pillsAll-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pillsAll"
+              type="button"
+              role="tab"
+              aria-controls="pillsAll"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pillsBreakfast-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pillsBreakfast"
+              type="button"
+              role="tab"
+              aria-controls="pillsBreakfast"
+              aria-selected="false"
+            >
+              Breakfast
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pillsLunch-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pillsLunch"
+              type="button"
+              role="tab"
+              aria-controls="pillsLunch"
+              aria-selected="false"
+            >
+              Lunch
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pillsDinner-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pillsDinner"
+              type="button"
+              role="tab"
+              aria-controls="pillsDinner"
+              aria-selected="false"
+            >
+              Dinner
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pillsAll" role="tabpanel" aria-labelledby="pillsAll-tab" tabindex="0">
+            <!-- Content for All -->
+            <div class="row gy-5 py-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content for Breakfast -->
+          <div class="tab-pane fade" id="pillsBreakfast" role="tabpanel" aria-labelledby="pillsBreakfast-tab" tabindex="0">
+            <div class="row gy-5 py-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content for Lunch -->
+          <div class="tab-pane fade" id="pillsLunch" role="tabpanel" aria-labelledby="pillsLunch-tab" tabindex="0">
+            <div class="row gy-5 py-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content for Dinner-->
+          <div class="tab-pane fade" id="pillsDinner" role="tabpanel" aria-labelledby="pillsDinner-tab" tabindex="0">
+            <div class="row gy-5 py-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="card shadow">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold"><a>BBQ Burger</a></h5>
+                    <p class="text-muted">$10</p>
+                    <p class="mb-2">BBQ chicken, lettuce, tomato and cheese.</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr class="my-4" />
+                    <a href="#!" class="btn btn-link avaibility-button link-secondary p-md-1 mb-0">Check Avaibility</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="feature">
+      <a name="feature1"></a>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 menu-text">
+            <h1>Why To Choose Us?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui perferendis vel hic! Accusantium, maiores voluptate!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="f-feature py-4 px-4 text-center">
+              <div class="f-icon">
+                <i class="bi bi-wifi"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-3">Free Wifi</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt in repellendus.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="f-feature py-4 px-4 text-center">
+              <div class="f-icon">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-3">Friendly Staff</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt in repellendus.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="f-feature py-4 px-4 text-center">
+              <div class="f-icon">
+                <i class="bi bi-alarm-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-3">Fast Delivery</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt in repellendus.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="f-feature py-4 px-4 text-center">
+              <div class="f-icon">
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-3">Fast Delivery</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nesciunt in repellendus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="team">
+      <a name="team1"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 menu-text">
+            <h1>Our professional Chefs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui perferendis vel hic! Accusantium, maiores voluptate!</p>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-3 col-sm-6">
+            <div class="chef text-center flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../assets/chef.jpg" alt="Chef" />
+                  <div class="team-text">
+                    <h4 class="py-1">Gordon Ramsey</h4>
+                    <p class="mb-0">Main Chef</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h4 class="py-3">Info</h4>
+                  <p class="my-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus mollitia accusantium illo perferendis ullam excepturi
+                    beatae facere modi dicta?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="chef text-center flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../assets/chef.jpg" alt="Chef" />
+                  <div class="team-text">
+                    <h4 class="py-1">Salt Bae</h4>
+                    <p class="mb-0">Main Chef</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h4 class="py-3">Info</h4>
+                  <p class="my-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus mollitia accusantium illo perferendis ullam excepturi
+                    beatae facere modi dicta?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="chef text-center flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../assets/chef.jpg" alt="Chef" />
+                  <div class="team-text">
+                    <h4 class="py-1">McDonald</h4>
+                    <p class="mb-0">assistant Chef</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h4 class="py-3">Info</h4>
+                  <p class="my-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus mollitia accusantium illo perferendis ullam excepturi
+                    beatae facere modi dicta?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="chef text-center flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../assets/chef.jpg" alt="Chef" />
+                  <div class="team-text">
+                    <h4 class="py-1">Sanji</h4>
+                    <p class="mb-0">Assistant Chef</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h4 class="py-3">Info</h4>
+                  <p class="my-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus mollitia accusantium illo perferendis ullam excepturi
+                    beatae facere modi dicta?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <a name="review1"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 menu-text">
+            <h1>Celebrity Review</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui perferendis vel hic! Accusantium, maiores voluptate!</p>
+          </div>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-10 col-xl-8">
+                    <div class="row">
+                      <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="../assets/gojo.png" class="shadow-1 mt-4 mb-lg-0" alt="woman avatar" width="130" height="130" />
+                      </div>
+                      <div class="col-9 col-md-9 col-lg-7 col-xl-9 text-lg-start mx-auto mx-lg-0">
+                        <h4 class="d-inline-block">Gojo Satoru</h4>
+                        <span>
+                          (4.7
+                          <i class="bi bi-star-fill"></i>
+                          /5)
+                        </span>
+                        <h6 class="mb-4 text-secondary">Jujutsu sorcerer</h6>
+                        <p class="mb-0 pb-3">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                          voluptas sit aspernatur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Dolore omnis reiciendis consectetur?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-10 col-xl-8">
+                    <div class="row">
+                      <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="../assets/naruto.png" class="shadow-1 mt-4 mb-lg-0" alt="woman avatar" width="130" height="130" />
+                      </div>
+                      <div class="col-9 col-md-9 col-lg-7 col-xl-9 text-lg-start mx-auto mx-lg-0">
+                        <h4 class="d-inline-block">Naruto Uzumaki</h4>
+                        <span>
+                          (4.9
+                          <i class="bi bi-star-fill"></i>
+                          /5)
+                        </span>
+                        <h6 class="mb-4 text-secondary">Hokage</h6>
+                        <p class="mb-0 pb-3">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                          voluptas sit aspernatur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Praesentium dolores obcaecati dolor.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-10 col-xl-8">
+                    <div class="row">
+                      <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="../assets/luffy.png" class="shadow-1 mt-4 mb-lg-0" alt="woman avatar" width="130" height="130" />
+                      </div>
+                      <div class="col-9 col-md-9 col-lg-7 col-xl-9 text-lg-start mx-auto mx-lg-0">
+                        <h4 class="d-inline-block">Monkey D Luffy</h4>
+                        <span>
+                          (5
+                          <i class="bi bi-star-fill"></i>
+                          /5)
+                        </span>
+                        <h6 class="mb-4 text-secondary">Pirate King</h6>
+                        <p class="mb-0 pb-3">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                          voluptas sit aspernatur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Quibusdam vitae saepe fugiat!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-10 col-xl-8">
+                    <div class="row">
+                      <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="../assets/rengoku.png" class="shadow-1 mt-4 mb-lg-0" alt="woman avatar" width="130" height="130" />
+                      </div>
+                      <div class="col-9 col-md-9 col-lg-7 col-xl-9 text-lg-start mx-auto mx-lg-0">
+                        <h4 class="d-inline-block">Kyōjurō Rengoku</h4>
+                        <span>
+                          (4.8
+                          <i class="bi bi-star-fill"></i>
+                          /5)
+                        </span>
+                        <h6 class="mb-4 text-secondary">Hashira</h6>
+                        <p class="mb-0 pb-3">
+                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                          ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                          voluptas sit aspernatur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Minus earum iste doloremque?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="pricing-content section-padding">
+      <div class="container">
+        <div class="col-12 menu-text text-center">
+          <h1>Be Our Premium Customer</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="row text-center">
+          <div
+            class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.1s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp"
+          >
+            <div class="pricing_design">
+              <div class="single-pricing">
+                <div class="price-head">
+                  <h2>Starter</h2>
+                  <h1>$5</h1>
+                  <span>/Monthly</span>
+                </div>
+                <ul>
+                  <li>
+                    <b>10%</b>
+                    discount
+                  </li>
+                  <li>
+                    <b>Free</b>
+                    reservation
+                  </li>
+                  <li>
+                    <b>Complimentary</b>
+                    food
+                  </li>
+                  <li><pre> </pre></li>
+                  <li><pre> </pre></li>
+                  <li><pre> </pre></li>
+                </ul>
+                <div class="pricing-price"></div>
+                <a href="#" class="price_btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp"
+          >
+            <div class="pricing_design">
+              <div class="single-pricing">
+                <div class="price-head">
+                  <h2>Moderate</h2>
+                  <h1 class="price">$9</h1>
+                  <span>/Monthly</span>
+                </div>
+                <ul>
+                  <li>
+                    <b>20%</b>
+                    discount
+                  </li>
+                  <li>
+                    <b>Free</b>
+                    reservation
+                  </li>
+
+                  <li>
+                    <b>Free</b>
+                    wifi
+                  </li>
+
+                  <li>
+                    <b>Complimentary</b>
+                    food
+                  </li>
+
+                  <li><pre> </pre></li>
+                  <li><pre> </pre></li>
+                </ul>
+                <div class="pricing-price"></div>
+                <a href="#" class="price_btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+          <div
+            class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp"
+          >
+            <div class="pricing_design">
+              <div class="single-pricing">
+                <div class="price-head">
+                  <h2>Foodie</h2>
+                  <h1 class="price">$14</h1>
+                  <span>/Monthly</span>
+                </div>
+                <ul>
+                  <li>
+                    <b>30%</b>
+                    discount
+                  </li>
+                  <li>
+                    <b>Free</b>
+                    reservation
+                  </li>
+                  <li>
+                    <b>Live</b>
+                    kitchen
+                  </li>
+                  <li>
+                    <b>Custom</b>
+                    order
+                  </li>
+                  <li>
+                    <b>Free</b>
+                    wifi
+                  </li>
+                  <li>
+                    <b>Complimentary</b>
+                    food
+                  </li>
+                </ul>
+                <div class="pricing-price"></div>
+                <a href="#" class="price_btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <!--- END COL -->
+        </div>
+        <!--- END ROW -->
+      </div>
+      <!--- END CONTAINER -->
+    </section>
+    <section class="reservation bg-light py-5">
+      <a name="reservation1"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 menu-text text-center">
+            <h1>Book Your Table</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <form action="#" class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="row g-3">
+                <div class="form-group col-md-12">
+                  <input type="text" class="form-control" placeholder="Full Name" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Membership ID" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="Email address" />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Date" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Time" />
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Your Message Here (optional)"></textarea>
+                </div>
+                <div class="form-group col-md-12 text-center">
+                  <a href="#" class="btn btn-order">Confirm Reservation</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <a name="blog1"></a>
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 menu-text text-center pb-4">
+            <h1>Blog posts</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../assets/blog1.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">The art of delicious salad</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum, dolor sit...<a><u>Read more</u></a>
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small> <span class="comments"><i class="fas fa-comments"></i>45 Comments</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-md-12  col-sm-12">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../assets/blog.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">How to cook juicy chicken dishes</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum, dolor sit...<a><u>Read more</u></a>
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small><span class="comments"><i class="fas fa-comments"></i>45 Comments</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../assets/blog.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">How to cook juicy chicken dishes</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum, dolor sit...<a><u>Read more</u></a>
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small><span class="comments"><i class="fas fa-comments"></i>45 Comments</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-md-12  col-sm-12">
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../assets/blog1.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">The art of delicious salad</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum, dolor sit...<a><u>Read more</u></a>
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small><span class="comments"><i class="fas fa-comments"></i>45 Comments</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="../assets/brand.png"  class="mb-4" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio aliquam aspernatur odit ducimus et ullam.</p>
+              <div class="social-icon"></div>
+              <a href="#"><i class="bi bi-facebook"></i></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></i></a>
+              
+              <a href="#"><i class="bi bi-youtube"></i></i></a>
+              <a href="#"><i class="bi bi-google-play"></i></i></a>
+
+            </div>
+            <div class="col-lg-3 ms-auto">
+              <h6 class="text-white mb-4">CONTACT</h6>
+              <p class="mb-1">P:+91 9876543210</p>
+              <p class="mb-1">E:info.FeastZ@gmail.co</p>
+              <p class="mb-0">A: 14 Chuo-dori Avenue Akihabara Tokyo, Japan.</p>
+
+              
+
+            </div>
+            <div class="col-lg-3">
+              <h6 class="text-white mb-4">OPENING HOURS</h6>
+              <p class="mb-1">Sunday-Friday : 10:00 - 22:00</p>
+              <p>Saturday: 14:00 - 22:00</p>
+              
+              
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">
+                &copy;2024 FeastZ. all rights reserved
+              </p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">
+                Designed by <a href="#">Rahat</a>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
