@@ -125,7 +125,7 @@ h1 {
    .dinner-responsive{
     margin-top: 10px;
     position: relative;
-    right: 13px;
+    right: 15px;
    }
   
 }
@@ -232,7 +232,13 @@ h1 {
 }
 
 
+@media (max-width: 576px) {
 
+ .team-responsive{
+  display: flex;
+  justify-content: center;
+ } 
+  
 
 
 .review {
