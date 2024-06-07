@@ -43,7 +43,6 @@ h6 {
   font-weight: 500;
   color: #090909;
   font-family: "spline sans", sans-serif;
-  
 }
 h1 {
   font-family: "spline sans", sans-serif;
@@ -78,9 +77,7 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-
 
 .about {
   padding: 120px 0 120px 0;
@@ -122,14 +119,12 @@ h1 {
 }
 
 @media (max-width: 570px) {
-   .dinner-responsive{
+  .dinner-responsive {
     margin-top: 10px;
     position: relative;
     right: 15px;
-   }
-  
+  }
 }
-
 
 .card {
   transition: all 0.3s;
@@ -166,6 +161,10 @@ h1 {
 .feature .menu-text {
   margin-top: 70px;
 }
+
+
+
+
 
 .chef img {
   margin-top: 10px;
@@ -231,15 +230,12 @@ h1 {
   margin-bottom: 60px;
 }
 
-
 @media (max-width: 576px) {
-
- .team-responsive{
-  display: flex;
-  justify-content: center;
- } 
-  
-
+  .team-responsive {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .review {
   background: linear-gradient(rgba(11, 11, 11, 0.493), #151414), url(./assets/review.jpg);
@@ -266,16 +262,11 @@ h1 {
   padding-bottom: 85px;
 }
 
-
 @media (max-width: 576px) {
-
- .review-responsive{
-  text-align: center;
- } 
-  
+  .review-responsive {
+    text-align: center;
+  }
 }
-
-
 
 .pricing-content {
   position: relative;
@@ -391,112 +382,100 @@ pre {
   height: 45 px;
 }
 
-
 .txt3 {
   color: gray;
- 
+
   font-size: 14px;
   margin: 0px;
 }
 .comments {
   float: right;
   cursor: pointer;
-  font-size: 15px;
 }
-
 @media (max-width: 576px) {
-
- .comments{
-  display:none;
-
- }
- 
-  
+  .comments {
+    display: none;
+  }
 }
-
 
 .fa-clock,
 .fa-comments {
   margin-right: 7px;
 }
-.blog .card{
-  padding: 0px;
-  
-  
-}
-.blog h5{
-  position: relative;
-  top:-9px
-}
-.blog .card-text{
-  position: relative;
-  top:10px;
-}
-.blog a{
-  font-size: 14px;
-  color: #1a7db3!important;
-  cursor: pointer;
 
-  
-}
 .blog .card {
+  padding: 0px;
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for transform and shadow */
-  transform: translateZ(0); 
-  border: none;/* Ensures the card is ready for 3D transformation */
-  
+  transform: translateZ(0);
+  border: none; /* Ensures the card is ready for 3D transformation */
+}
+
+.blog h5 {
+  position: relative;
+  top: -9px;
+}
+
+.blog .card-text {
+  position: relative;
+  top: 10px;
+}
+
+.blog a {
+  font-size: 14px;
+  color: #1a7db3 !important;
+  cursor: pointer;
 }
 
 .blog .card:hover {
   transform: scale(1.05) rotateX(5deg) rotateY(5deg); /* 3D effect on hover */
-  box-shadow: 0 20px 40px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  transition: none;
-  transform: none; /* Enhanced shadow */
-  
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.reservation h1 ,.blog h1{
+
+.reservation h1,
+.blog h1 {
   color: #e06f1f;
 }
+
 .reservation {
   margin-top: 120px;
   margin-bottom: 100px;
+}
 
- }
- .blog{
-   margin-top: 115px;
+.blog {
+  margin-top: 115px;
   margin-bottom: 120px;
+}
 
- }
- footer{
-
+footer {
   background: linear-gradient(rgba(11, 11, 11, 0.493), #151414), url(./assets/review.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 40px;
+}
 
-
- }
-
- .footer-top{
+.footer-top {
   margin-bottom: 30px;
- }
- footer p, footer a{
+}
+
+footer p,
+footer a {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  
- }
- footer a{
+}
+
+footer a {
   font-weight: normal;
   font-size: 20px !important;
   margin-right: 10px;
- }
- footer img{
-  max-width: 220px;
- }
- .footer-bottom{
+}
+
+footer img {
+  max-width: 220px !important;
+}
+
+.footer-bottom {
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
- }
-
-
+}
